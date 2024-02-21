@@ -1,12 +1,10 @@
 import React, { memo } from 'react'
 
-const ChildA = ({learning}) => {
-
-    console.log("Child Component");
-
+const ChildA = ({learning, count}) => {
+    console.log("Child Component")
   return (
     <>
-
+        
     </>
   )
 }
